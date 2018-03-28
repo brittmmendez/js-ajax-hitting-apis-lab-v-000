@@ -28,7 +28,7 @@ let username=document.getElementById("username").value
   const repoName = el.dataset.repository
   const req = new XMLHttpRequest()
   req.addEventListener("load", displayCommits)
-  req.open("GET", 'https://api.github.com/repos/' + username + '/' + name + '/commits')
+  req.open("GET", 'https://api.github.com/repos/' + username + '/' + repoName + '/commits')
   req.send()
 }
 
