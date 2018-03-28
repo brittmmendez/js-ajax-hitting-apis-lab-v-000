@@ -13,7 +13,7 @@ function displayRepositories(event, data) {
   document.getElementById("repositories").innerHTML = repoList
 }
 
-        
+
 
 function getCommits(el) {
   let username=document.getElementById("username").value
